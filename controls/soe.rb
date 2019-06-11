@@ -9,7 +9,7 @@ control 'soe-app-01' do
   desc 'Check for Adobe Reader 19.012.20034'
   describe package('Acrobat Adobe Reader DC') do
     it { should be_installed }
-    its ( version ) { should cmp '19.012.20034' }
+    its ( 'version' ) { should cmp '19.012.20034' }
   end
 end
 
@@ -19,7 +19,7 @@ control 'soe-app-02' do
   desc 'Check for Cisco VPN Client 4.3.02039'
   describe package('Cisco AnyConnect Secure Mobility Client') do
     it { should be_installed }
-    its ( version ) { should cmp '4.3.02039' }
+    its ( 'version' ) { should cmp '4.3.02039' }
   end
 end
 
@@ -29,7 +29,7 @@ control 'soe-app-03' do
   desc 'Check for Visual Studio Code 1.35.0'
   describe package('Microsoft Visual Studio Code') do
     it { should be_installed }
-    its ( version ) { should cmp '1.35.0' }
+    its ( 'version' ) { should cmp '1.35.0' }
   end
 end
 
