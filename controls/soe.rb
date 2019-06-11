@@ -8,7 +8,7 @@ control 'soe-app-01' do
   impact 1.0
   title 'Adobe Reader Installed'
   desc 'Check for Adobe Reader 19.012.20034'
-  describe package('Acrobat Adobe Reader DC') do
+  describe package('Adobe Acrobat Reader DC') do
     it { should be_installed }
     its ( 'version' ) { should cmp '19.012.20034' }
   end
