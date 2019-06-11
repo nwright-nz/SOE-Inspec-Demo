@@ -1,0 +1,10 @@
+name: demo-soe-profile
+title: Demo SOE Compliance Profile
+maintainer: Nigel Wright
+copyright: All Rights Reserved
+copyright_email: nigel.wright@dimensiondata.com
+license: Apache-2.0
+summary: An example of using Inspec to check for compliance of SOE build
+version: 0.1.0
+supports:
+  platform: os
