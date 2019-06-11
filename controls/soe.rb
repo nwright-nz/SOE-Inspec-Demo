@@ -1,5 +1,6 @@
 # encoding: utf-8
 # copyright: 2018, The Authors
+win_update = windows_update
 
 title 'SOE Profile (Windows)'
 
